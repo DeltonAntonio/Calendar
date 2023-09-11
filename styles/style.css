@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+   background: linear-gradient(100deg, red, rgb(255, 98, 0)); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container-principal{
+    width: 800px;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    box-shadow: 0px 0px 10px rgb(38, 37, 37);
+}
+.container-info{
+    padding: 20px;
+    width: 40%;
+    background-color: rgba(237, 14, 51, 0.855);
+    color: white;
+}
+.title{
+    font-size: 4.5rem;   
+}
+.month{
+    font-size: 3rem;
+    line-height: 2; 
+}
+.year{
+    font-size: 2.5rem;
+    line-height: 2;
+}
+.author{
+    font-size: 2rem;
+    line-height: 3;
+}
+hr{
+    border: 1px solid rgba(146, 1, 25, 0.855);
+}
+.container-header{
+    background-color: rgb(175, 13, 70);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    color:white;
+    font-weight: 600;
+}
+.container-calendar{
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.container-body{
+    display: flex;
+    flex-direction: column;
+      
+}
+.container-week{
+    display: flex;
+    width: 100%;   
+    background-color: rgb(47, 47, 47);
+    color: white; 
+    justify-content: space-around;
+    padding: 20px;  
+}
+.container-day{
+    width: 100%;
+    display: flex;
+    height: 372px;
+    flex-direction: column;
+    
+}   
+.day{
+    display: flex;  
+    width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
+    flex: row;
+}
+.day p{
+    font-weight: 600;
+    margin: 10px;
+    padding: 8px 5px; 
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.active{
+    background-color: red;
+}
+.muted{
+    color: gray;
+}
